@@ -7,3 +7,9 @@ The main goal is to build larger full-stack applications while improving my web 
 ## Purpose
 
 This repository serves as a personal study log. The code may evolve over time as I improve my skills and explore new concepts
+
+## Projects
+
+- **meals-api:** a meal management API built with Node.js and Express. The goal was to build a simple API, while getting the first experience with the ecossystem
+
+- **likes-counter:** an interactive web page featuring a like counter. Its main purpose was to build a React application and learn how to use useState() and useEffect()
