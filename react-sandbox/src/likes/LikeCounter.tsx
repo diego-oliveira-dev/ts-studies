@@ -10,7 +10,13 @@ export default function LikeCounter() {
   // we use [x, setX] to destructure this array into two variables
 
   useEffect(() => {
-    document.title = `${count} curtidas`
+    document.title = `${count} likes`
+
+    return () => {
+      document.title = 'React Sandbox'
+    }
+    // clean-up function: executada quando o component é desmontado ao sair da rota
+    
   }, [count])
   // useEffect(fn, dependencies)
   // useEffect executes a given function or setup based on given conditions
